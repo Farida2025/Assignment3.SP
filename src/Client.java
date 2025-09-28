@@ -15,7 +15,7 @@ public class Client {
         String inputXml = "<note><to>User</to><message>Hello!</message></note>";
         String jsonResult = adapter.parseToJson(inputXml);
 
-        // Print the result
+
         System.out.println(jsonResult);
     }
 }
